@@ -1,7 +1,7 @@
 const fs = require('fs');
-const { addLocation } = require('./location');
-const { addItem } = require('./inventory');
-const { addEmployee } = require('./employee');
+const { addLocation } = require('./Schema/location');
+const { addItem } = require('./Schema/inventory');
+const { addEmployee } = require('./Schema/employee');
 
 // Read data from file
 const rawData = fs.readFileSync('data.json');
